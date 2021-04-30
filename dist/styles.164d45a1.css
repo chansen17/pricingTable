@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "Roboto:wght@400;500", Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  background-color: #4D46A5;
+}
+
+.table {
+  background: #fff;
+  max-height: 100%;
+  height: 400px;
+  max-width: 100%;
+  width: 340px;
+  border-radius: 15px;
+}
+.table .container {
+  margin: 2rem;
+}
+.table .heading {
+  padding: 0.45rem 1rem;
+  border: 1px solid #eeeeee;
+  border-radius: 12px;
+}
+.table .heading .package-grid {
+  display: flex;
+  justify-content: center;
+}
+.table .heading .package-grid button {
+  font-size: 0.7rem;
+  margin: 0.5rem 0.5rem;
+  padding: 0.7rem 0.9rem;
+  background: none;
+}
+.table .heading .package-grid button:hover {
+  cursor: pointer;
+}
+.table .heading .package-grid button.highlight {
+  background: #45A69A;
+  color: #eee;
+  border-radius: 7px;
+}
+.table .info {
+  margin: 2rem 0.5rem;
+}
+.table .info header .title {
+  font-size: 0.75rem;
+  color: #777;
+}
+.table .info .sub-title {
+  font-size: 0.9rem;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+.table .info .description {
+  margin: 1rem 0;
+}
+.table .info .description p {
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #555;
+  line-height: 1.5;
+}
+.table .info .list {
+  list-style: none;
+  font-size: 0.8rem;
+  color: #333;
+}
+.table .info .list span .far {
+  background: #E0DFF6;
+  color: #6C66B6;
+  border-radius: 50%;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+.table .info .cart-btn {
+  background-color: #4D46A5;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  height: 45px;
+  border-radius: 30px;
+  margin: 1.5rem auto;
+  box-shadow: 0 5px 10px #4c46a5c4;
+  cursor: pointer;
+}
+.table .info .cart-btn:hover {
+  box-shadow: 0 5px 10px #4c46a5;
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */
